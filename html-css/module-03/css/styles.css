@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(222, 181, 238);
+    background-image: url("http://mirpozitiva.ru/uploads/posts/2016-10/1477469507_autumn-panorama.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/* ----------------------- */
+
+.wrapper {
+    width: 480px;
+    background-color: white;
+    margin: 70px auto 240px;
+    padding: 60px 38px 45px 38px;
+}
+
+/* --------------------- */
+
+.heading, .title {
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.title {
+    padding-top: 52px;
+}
+
+.img {
+    padding-top: 35px;
+}
+
+.subtitle {
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 27px 0px 16px 0px;
+}
+
+.text {
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 75px;
+}
+
+p {
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.line{
+    height: 1px;
+    width: 406px;
+    background-color: #4e5050;
+    margin-top: 50px;
+}
+
+.list {
+    display: inline-block;
+    margin: 44px 45px 0px 20px ;
+
+    
+}
+
+.items {
+    display: inline-block;
+    vertical-align: top;
+    margin: 44px 0px 0px 0px ;
+ 
+}
+
+li {
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 23px;
+}
+
+
+
+
