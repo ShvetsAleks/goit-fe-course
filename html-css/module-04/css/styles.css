@@ -7,19 +7,21 @@
 
 body {
     background-color: rgb(222, 181, 238);
-    background-image: url("http://mirpozitiva.ru/uploads/posts/2016-10/1477469507_autumn-panorama.jpg"); 
+    background-image: url("../img/background.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .wrapper {
     width: 1024px;
     background-color: rgb(255, 255, 255);
-    margin: auto; 
-    padding: 117px 60px 85px 60px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 80px;
+    padding: 118px 60px 85px 60px;
 }
 
 /* --------CONTENT 1------------- */
@@ -50,6 +52,7 @@ width: 904px;
     font-family: 'Pathway Gothic One';
     font-size: 32px;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .sectoin1-subtitle {
@@ -70,20 +73,18 @@ width: 904px;
     font-size: 13px;
 }
 
-.sidebar-lists, .content2-list, .item {
-    list-style: none;
-}
 
-.list-item {
-    margin-bottom: 16px;
+.sidebar-subtitle {
+    margin-bottom: 10px;
     color: #263555;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    
 }
 
-.sidebar-text {
+.sidebar-text { 
     margin-bottom: 16px;
+    padding-left: 37px;
     color: #4e5050;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -93,12 +94,58 @@ width: 904px;
     margin-bottom: 0;
 }
 
+.pic1::before {
+    content: '1';
+    display: inline-block;
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    background: #38afe5;
+    border-radius: 13px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.pic2::before {
+    content: '2';
+    display: inline-block;
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    background: #38afe5;
+    border-radius: 13px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.pic3::before {
+    content: '3';
+    display: inline-block;
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    background: #38afe5;
+    border-radius: 13px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
 /* --- line ----- */
 .line {
     height: 1px;
     width: 100%;
-    background-color: #4e5050;
+    background-color: #dedbdb;
     margin-bottom: 55px;
+
 }
 
 /* ----content2--------- */
@@ -116,6 +163,7 @@ width: 904px;
     font-family: 'Pathway Gothic One';
     font-size: 32px;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .sectoin2-subtitle {
@@ -132,7 +180,7 @@ width: 904px;
     font-size: 13px;    
 }
 
-.content2-list, .content2-item {
+.content2-list {
     display: inline-block;
     margin-right: 40px;
     vertical-align: top;
@@ -141,6 +189,9 @@ width: 904px;
 .content2-item {
     display: inline-block;
 
+}
+.content2-list, .content2-item {
+    list-style: none;
 }
 
 .list {
@@ -155,8 +206,10 @@ width: 904px;
 }
 
 .list::before {
-    content: '\2192';
     margin-right: 14px;
+    content: '\2192';
+    color: #38afe5;
+    
 }
 
 .item {
@@ -171,8 +224,9 @@ width: 904px;
 }
 
 .item::before {
-    content: '\2192';
     margin-right: 14px;
+    content: '\2192';
+    color: #38afe5;
 }
 
 /* ----aside----- */
@@ -189,6 +243,7 @@ width: 904px;
     font-family: 'Pathway Gothic One';
     font-size: 32px;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .aside-text {
