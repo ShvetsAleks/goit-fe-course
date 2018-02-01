@@ -1,0 +1,246 @@
+/* --- WRAPPER --- */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(222, 181, 238);
+    background-image: url("http://mirpozitiva.ru/uploads/posts/2016-10/1477469507_autumn-panorama.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 40px;
+}
+
+.wrapper {
+    width: 1024px;
+    background-color: rgb(255, 255, 255);
+    margin: auto; 
+    padding: 117px 60px 85px 60px;
+}
+
+/* --------CONTENT 1------------- */
+
+.content1 .content2 {        
+width: 904px;
+}
+
+.content1 {
+    margin-bottom: 55px;
+}
+
+.section1 {
+    display: inline-block;
+    margin-right: 50px;
+    width: 640px;
+    vertical-align: top;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 210px;
+}
+
+.sidebar-title, .sectoin1-title {
+    margin-bottom: 48px;
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.sectoin1-subtitle {
+    margin-bottom: 16px;
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.section-img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.sectoin1-text {
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.sidebar-lists, .content2-list, .item {
+    list-style: none;
+}
+
+.list-item {
+    margin-bottom: 16px;
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sidebar-text {
+    margin-bottom: 16px;
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.sidebar-text:last-child {
+    margin-bottom: 0;
+}
+
+/* --- line ----- */
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #4e5050;
+    margin-bottom: 55px;
+}
+
+/* ----content2--------- */
+
+/* ----sectoin2--------- */
+.sectoin2 {
+    display: inline-block;
+    margin-right: 50px;
+    width: 640px;
+}
+
+.sectoin2-title {
+    margin-bottom: 60px;
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.sectoin2-subtitle {
+    margin-bottom: 26px;
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.sectoin2-text {
+    margin-bottom: 35px;
+    color: #4e5050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;    
+}
+
+.content2-list, .content2-item {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.content2-item {
+    display: inline-block;
+
+}
+
+.list {
+    margin-bottom: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #263555;
+}
+
+.list:last-child {
+    margin-bottom: 0;
+}
+
+.list::before {
+    content: '\2192';
+    margin-right: 14px;
+}
+
+.item {
+    margin-bottom: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #263555;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.item::before {
+    content: '\2192';
+    margin-right: 14px;
+}
+
+/* ----aside----- */
+
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 210px;
+}
+
+.aside-title {
+    margin-bottom: 30px;
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.aside-text {
+    margin-bottom: 26px;
+    width: 100%;
+    padding: 18px 18px 26px 18px;
+    border: 1px solid #c9c9c9; 
+    border-radius: 4px;
+    background-color: #fcfafa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #263555;
+}
+
+.aside-text::before {
+    content: '\201C';
+    margin-right: 5px;
+}
+
+.aside-text::after {
+    content: '\201D';
+    margin-left: 5px;
+}
+
+.aside-autor {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #263555;
+}
+
+.aside-position {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4e5050;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
