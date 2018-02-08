@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-color: rgb(232, 199, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 1024px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 60px; 
+}
