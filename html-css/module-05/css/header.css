@@ -58,7 +58,6 @@
     box-sizing: border-box;
     background: white;
     color: #6b7488;
-    box-sizing: border-box;
     padding: 10px 10px;
     border-radius:5px;
     font-size: 20px;
@@ -84,6 +83,7 @@
 .itemSubMenu {
     position: relative;
 }
+
 
 /* ---- LOGO ----- */
 

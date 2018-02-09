@@ -11,12 +11,14 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    margin-bottom: 200px;
+
 }
 
 .wrapper {
     background-color: #fff;
     width: 1024px;
-    min-height: 100vh;
+    margin-bottom: 200px;
     margin: auto;
-    padding: 60px; 
+    padding: 60px 60px 136px 60px; 
 }
