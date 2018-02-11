@@ -53,6 +53,8 @@
 .gallery-btn {
     display: inline-block;
     position: absolute;
+    background-color: transparent;
+    border: 0;
     top: 450px;
     left: 36px;
 }
