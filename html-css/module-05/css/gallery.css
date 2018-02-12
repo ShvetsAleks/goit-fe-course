@@ -53,15 +53,15 @@
 .gallery-btn {
     display: inline-block;
     position: absolute;
-    background-color: transparent;
-    border: 0;
     top: 450px;
     left: 36px;
 }
 
 
-.halfCircle-left {
+.btn-left {
     display: inline-block;
+    background-color: transparent;
+    border: 0;
     position: relative;
     z-index: 1;
     width: 40px;
@@ -72,8 +72,10 @@
     
 }
 
- .halfCircle-rigth {
+ .btn-rigth {
     display: inline-block;
+    background-color: transparent;
+    border: 0;
     position: relative;
     z-index: 1;    
     width: 40px;
@@ -86,20 +88,20 @@
 }
 
 
-.halfCircle-left::after {
+.btn-left::after {
     content: '\2190';
     font-size: 18px;
     position: absolute;
     color: #fff;
-    top: 30px;
+    top: 28px;
     left: 15px;
 }
 
-.halfCircle-rigth::before {
+.btn-rigth::before {
     content: '\2192';
     font-size: 18px;
     position: absolute;
     color: #fff;
-    top: 30px;
+    top: 28px;
     left: 8px;
 }
