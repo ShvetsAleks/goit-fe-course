@@ -1,0 +1,101 @@
+
+.title-content {
+    margin-bottom: 23px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+}
+
+.subtitle-content {
+    margin-bottom: 41px;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.line {
+    margin: 0px auto 68px auto;
+    height: 3px;
+    width: 60px;
+    background-color: #f38181;
+}
+
+.lits-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.item-service {
+    margin-bottom: 100px;
+}
+
+.item-title {
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.item-text {
+    padding-left: 60px;
+    width: 350px;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pic1::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/alarm.png");
+}
+
+.pic2::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/linegraph.png");
+}
+
+.pic3::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/computer.png");
+}
+
+.pic4::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/book.png");
+}
+
+.pic5::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/home.png");
+}
+
+.pic6::before {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    /* position: absolute; */
+    content: url("../img/image.png");
+}

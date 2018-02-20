@@ -1,0 +1,133 @@
+.line-team {
+    margin: 0px auto 45px auto;
+    height: 3px;
+    width: 60px;
+    background-color: #f38181;
+}
+
+.text-content {
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 0 128px;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------team-------- */
+
+.team-member {
+    position: relative;
+    width: 380px;
+}
+
+.img-gradient {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.team-img {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.img-background {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    width: 380px;
+    height: 470px;
+    background-color:#95e1d3;
+    
+} 
+
+.team-img:hover {
+    transform: translate(-10px, -10px);
+    /* background: linear-gradient(to bottom, rgba(243, 129, 129,1), rgba(252, 227, 138, 0.5)); */
+    
+}
+
+
+
+
+/* .team-img::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+} */
+
+
+
+
+
+
+
+
+/* ---- info -----  */
+
+.member-descr {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.member-pos {
+    display: block;
+    padding-top: 16px;
+    text-transform: none;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*---- socials -----*/
+
+
+.team-socials {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    left: 58px;
+    bottom: 280px;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: -3px;
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-facebook {
+    background-image: url(../img/team/facebook.svg);
+}
+.icon-twitter {
+    background-image: url(../img/team/twitter.svg);
+}
+.icon-pinterest {
+    background-image: url(../img/team/pinterest.svg);
+}
+.icon-instagram {
+    background-image: url(../img/team/instagram.svg);
+}
