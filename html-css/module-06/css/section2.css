@@ -22,42 +22,49 @@
 
 .team-card {
     position: relative;
-    /* overflow: hidden; */
     background-color:#95e1d3;
     height: 470px;
 }
 
+.team-img {
+    display: block;
+    transition: all 0.4s ease 0s;
+}
+
 .team-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     position: absolute;
     width: 380px;
     height: 470px;
     right: 10px;
     top: 470px;
     background: linear-gradient(to bottom, #f38181, #fce38a);
+    transition: all 0.4s ease 0s;
 }
 
-.team-img:hover {
+.team-card:hover .team-img {
     transform: translate(-10px, -10px);
 }
 
-.team-img .team-social .team-img:hover  {
-    top: 0px;
-    /* transform: translate(-10px, -10px); */
-    opacity: 0.1;
+.team-card:hover .team-social {
+    display: block;
+    opacity: 0.5;
+    top: -10px;
 }
+
 
 /*---- socials -----*/
 .icon {
+    display: inline-block;
+    position: relative;
+    top: 45%;
+    left: 18%;    
     width: 57px;
     height: 57px;
     background-color: #fce38a;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .icon-facebook {
