@@ -16,6 +16,12 @@
 
 /* ------team-------- */
 
+.team {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .team-member {
     width: 380px;    
 }
@@ -28,7 +34,6 @@
 
 .team-img {
     display: block;
-    transition: all 0.4s ease 0s;
 }
 
 .team-social {
@@ -36,10 +41,8 @@
     position: absolute;
     width: 380px;
     height: 470px;
-    right: 10px;
     top: 470px;
     background: linear-gradient(to bottom, #f38181, #fce38a);
-    transition: all 0.4s ease 0s;
 }
 
 .team-card:hover .team-img {
@@ -48,17 +51,24 @@
 
 .team-card:hover .team-social {
     display: block;
-    opacity: 0.5;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
     top: -10px;
+    right: 10px;
+}
+
+/*---- socials -----*/
+
+.blok-icon {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 55%;
 }
 
 
-/*---- socials -----*/
+
 .icon {
-    display: inline-block;
-    position: relative;
-    top: 45%;
-    left: 18%;    
+    display: block;
     width: 57px;
     height: 57px;
     background-color: #fce38a;
@@ -67,12 +77,19 @@
     background-position: center;
 }
 
+.icon:hover {
+    background-color: #9bd6ce;
+
+}
+
+
 .icon-facebook {
     background-image: url(../img/team/facebook.svg);
-   
+    
 }
 .icon-twitter {
     background-image: url(../img/team/twitter.svg);
+    opacity: 1;
 }
 .icon-pinterest {
     background-image: url(../img/team/pinterest.svg);
