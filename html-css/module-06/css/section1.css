@@ -1,6 +1,7 @@
 
-.title-content {
-    margin-bottom: 23px;
+.title {
+    position: relative;
+    margin-bottom: 110px;
     text-align: center;
     font-family: 'Kaushan Script', cursive; 
     font-size: 24px;
@@ -8,20 +9,27 @@
     font-weight: normal;
 }
 
-.subtitle-content {
-    margin-bottom: 41px;
+.subtitle {
+    display: block;
+    padding-top: 23px;
     text-align: center;
     color: #333;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.line {
-    margin: 0px auto 68px auto;
+.title::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 142px;
+    left: 570px;
     height: 3px;
     width: 60px;
-    background-color: #f38181;
+    background-color: #f38181; 
+
 }
 
 .lits-service {
@@ -35,8 +43,11 @@
     margin-bottom: 100px;
 }
 
+.item-service:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
 .item-title {
-    display: inline-block;
     color: #333;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;

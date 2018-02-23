@@ -1,9 +1,3 @@
-.line-team {
-    margin: 0px auto 45px auto;
-    height: 3px;
-    width: 60px;
-    background-color: #f38181;
-}
 
 .text-content {
     margin-bottom: 80px;
@@ -19,28 +13,30 @@
 .team {
     display: flex;
     justify-content: space-between;
-
 }
 
 .team-member {
-    width: 380px;    
+    width: 32%;    
 }
 
 .team-card {
     position: relative;
     background-color:#95e1d3;
-    height: 470px;
+    width: 100%;
+    height: auto;
 }
 
 .team-img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .team-social {
     display: none;
     position: absolute;
-    width: 380px;
-    height: 470px;
+    width: 100%;
+    height: 100%;
     top: 470px;
     background: linear-gradient(to bottom, #f38181, #fce38a);
 }
@@ -79,17 +75,14 @@
 
 .icon:hover {
     background-color: #9bd6ce;
-
 }
 
 
 .icon-facebook {
     background-image: url(../img/team/facebook.svg);
-    
 }
 .icon-twitter {
     background-image: url(../img/team/twitter.svg);
-    opacity: 1;
 }
 .icon-pinterest {
     background-image: url(../img/team/pinterest.svg);
