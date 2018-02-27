@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.conteiner {
+    max-width: 58.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.conteiner--serv {
+    padding: 6.875rem 0.625rem 7.5rem 0.625rem;
+}
+
+/* html {
+    font-size: 30px;
+} */

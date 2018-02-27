@@ -1,0 +1,51 @@
+.conteiner--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3.125rem 0.625rem 0.938rem 0.625rem;
+
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    color: #fed136;
+    font-family: 'Petitformalscript', sans-serif;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu-item {
+    margin-right: 2.5rem;
+
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link {
+    display: block;
+   
+    color: #222;
+    font-size: 0.875rem; 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-link:hover {
+    color: #fed136;
+}
+
+
+
+
+

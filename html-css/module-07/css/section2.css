@@ -1,0 +1,93 @@
+.wrapper-form{
+    background-color: #222;
+    background-image: url(../img/mapimage.png); 
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.feedback-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.625rem;
+}
+
+.title-white {
+    color: #fff;
+}
+
+.subtitle-grey {
+    color: #777777;
+}
+
+.imput-name, .imput-email, .imput-subject, .input-textarea {
+    display: block;
+    outline: none;
+    width: 100%;    
+    padding: 1.125rem 1.25rem;
+    border: 2px solid #ccc;
+    border-radius: 0.313rem;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+}
+
+.imput-name,.imput-email {
+    margin-bottom: 1.875rem;
+}
+
+input[type="text"]:valid:not(:placeholder-shown) {
+	border-color: rgb(23, 230, 23);
+}
+
+input[type="text"]:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+
+input[type="email"]:valid:not(:placeholder-shown) {
+	border-color: rgb(23, 230, 23);
+}
+
+input[type="email"]:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+
+textarea:valid:not(:placeholder-shown) {
+	border-color: rgb(23, 230, 23);
+}
+
+textarea:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+
+.feedback-form-input {
+    flex-basis: 48%;
+}
+
+.feedback-textarea {
+    flex-basis: 48%;
+}
+
+.form-btm {
+   display: flex;
+   justify-content: center;
+}
+
+.btm-submit {
+    display: block;
+    cursor: pointer;
+    padding: 1.563rem 2.813rem;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #fed136;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
