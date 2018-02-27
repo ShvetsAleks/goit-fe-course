@@ -25,7 +25,7 @@
     outline: none;
     width: 100%;    
     padding: 1.125rem 1.25rem;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 0.313rem;
     text-transform: uppercase;
     color: #ccc;
@@ -62,12 +62,17 @@ textarea:invalid:not(:placeholder-shown) {
 	border-color: red;
 }
 
+.input-textarea {
+    height: 13.125rem;
+    resize: none;
+}
+
 .feedback-form-input {
-    flex-basis: 48%;
+    flex-basis: 48.4%;
 }
 
 .feedback-textarea {
-    flex-basis: 48%;
+    flex-basis: 48.4%;
 }
 
 .form-btm {
