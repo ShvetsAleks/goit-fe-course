@@ -1,0 +1,145 @@
+.conteiner--section {
+    padding: 70px 10px 57px 10px;
+}
+
+.team {
+    margin-bottom: 30px;
+    position: relative;
+    width: 218px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.team:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+}
+
+.section-team {
+    margin-bottom: 29px;
+}
+
+.team-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 21px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.pas-member {
+    padding-top: 16px;
+}
+
+.icon1::before {
+    display: block;
+    top: 89px;
+    left: 136px;
+    position: absolute;
+    content: url(../img/1.svg);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 18px;
+    background-color: #ff4e50;
+    background-repeat: no-repeat;
+    border: 2px solid #fff; 
+}
+
+.icon2::before {
+    display: block;
+    top: 89px;
+    left: 136px;
+    position: absolute;
+    content: url(../img/2.svg);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 18px;
+    background-color: #ffa507;
+    background-repeat: no-repeat;
+    border: 2px solid #fff; 
+}
+
+.icon3::before {
+    display: block;
+    top: 89px;
+    left: 136px;
+    position: absolute;
+    content: url(../img/3.svg);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 18px;
+    background-color: #1cd7ad;
+    background-repeat: no-repeat;
+    border: 2px solid #fff; 
+}
+
+.icon4::before {
+    display: block;
+    top: 89px;
+    left: 136px;
+    position: absolute;
+    content: url(../img/4.svg);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    background-color: #4e73db;
+    background-repeat: no-repeat;
+    border: 2px solid #fff; 
+}
+
+
+
+.team-member {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+}
+
+.pas-member {
+    display: block;
+    /* width: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    color: #666;
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+}
+
+
+.btn-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px; 
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}

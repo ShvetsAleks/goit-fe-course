@@ -1,0 +1,91 @@
+@media (min-width: 960px) {
+    
+    /* ----- header ------ */
+    .wrapper-hed {
+        background-color: #1a1915;
+        background-image: url(../img/bacgraund-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+    
+        .conteiner {
+            max-width: 960px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+
+        .conteiner--header {
+            padding: 38px 10px 234px 10px;
+           
+        }
+    
+        .header-hed {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 153px;
+            
+        }
+    
+        .menu-hed {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+            order: 2;
+        }
+    
+        .logo {
+            order: 1;
+        }
+    
+        .title-head {
+            padding-top: 26px;
+        }
+    
+        .title-header {
+            margin-bottom: 41px;
+            font-size: 52px;
+        }
+    
+        .sutitle-header {
+            margin-bottom: 38px;
+            font-size: 24px;
+            
+        }
+    /*------ section -------- */
+        .conteiner--section {
+            padding: 70px 10px 73px 10px;
+        }
+    
+        .section-title {
+            margin-bottom: 37px;
+        }
+    
+        .pas-member {
+            padding-top: 16px;
+        }
+        
+        .section-team {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            margin-bottom: 39px;
+        }
+    
+    
+        .team:nth-last-child(-n+4) {
+            margin-bottom: 0;
+        }
+    
+        
+        
+        
+        
+    
+        
+    
+    }

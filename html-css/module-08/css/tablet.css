@@ -1,0 +1,100 @@
+@media (min-width: 768px) {
+    
+/* ----- header ------ */
+
+    .wrapper-hed {
+    background-color: #1a1915;
+    background-image: url(../img/bacgraund-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+
+    .conteiner {
+        max-width: 668px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .conteiner--header {
+        
+        padding: 38px 10px 234px 10px;
+       
+    }
+
+    .header-hed {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 153px;
+        
+    }
+
+    .menu-hed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        order: 2;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .title-head {
+        padding-top: 26px;
+    }
+
+    .title-header {
+        margin-bottom: 41px;
+        font-size: 51.97px;
+    }
+
+    .sutitle-header {
+        margin-bottom: 38px;
+        font-size: 23.99px;
+        
+    }
+/*------ section -------- */
+    .conteiner--section {
+        padding: 73px 50px 57px 50px;
+    }
+
+    .section-title {
+        margin-bottom: 32px;
+    }
+
+    .pas-member {
+        padding-top: 16px;
+    }
+    
+    .section-team {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 50px;
+        margin-bottom: 39px;
+    }
+
+    .team {
+        margin-bottom: 59px;
+    }
+
+    .team:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .icon1  {
+        order: -1;
+    }
+    
+    .icon3  {
+        order: -1;
+    }
+    
+    
+    
+
+    
+
+}
