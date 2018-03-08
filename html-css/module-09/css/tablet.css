@@ -1,0 +1,79 @@
+
+@media (min-width: 768px) {
+    
+/* ----- header ------ */
+
+    .wrapper-hed {
+    background-color: #1a1915;
+    background-image: url(../img/bacgraund-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+
+    .container-width {
+    max-width: 698px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    min-height: 700px;
+    }
+
+    .row-mb {
+        margin-bottom: 142px;
+    }
+
+
+    .menu-hed {
+        margin-bottom: 0;
+        padding-left: 46px;
+    }
+
+
+    .title-header {
+        margin-bottom: 24px;
+        font-size: 51.97px;
+    }
+
+    .sutitle-header {
+        margin-bottom: 32px;
+        font-size: 23.99px;
+    }
+
+    .logo {
+        padding-right: 17px;
+    }
+
+    .btn-header {
+        width: 226px;
+    }
+    
+/*------ section -------- */
+
+    .mb-team {
+        padding: 0 90px 0 90px; 
+        margin-bottom: 21px;
+    }
+
+    .section-title {
+        margin-bottom: 19px;
+        padding-top: 28px;
+    }
+
+    .mb-team [class*="col-"] {
+        margin-bottom: 40px;
+    }
+
+    .mb-team [class*="col-"]:nth-child(2) {
+        margin-bottom: 0;
+    }
+    
+    .mb-team [class*="col-"]:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .btn-section {
+        width: 192px;
+    }
+    
+    
+}

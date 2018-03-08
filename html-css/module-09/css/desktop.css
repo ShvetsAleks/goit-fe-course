@@ -1,0 +1,74 @@
+@media (min-width: 992px) {
+    
+    /* ----- header ------ */
+    .wrapper-hed {
+        background-color: #1a1915;
+        background-image: url(../img/bacgraund-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .container-width {
+        max-width: 970px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        min-height: 700px;
+    }
+
+    .menu-hed {
+        margin-bottom: 0;
+        padding-left: 57px;
+    }
+
+    .logo {
+        padding-right: 27px;
+    }
+
+    
+    .title-header {
+        margin-bottom: 22px;
+         font-size: 52px;
+    }
+    
+    .sutitle-header {
+        margin-bottom: 35px;
+        font-size: 24px;
+            
+    }
+    /*------ section -------- */
+    
+    .mb-team {
+        padding: 0;
+        margin-bottom: 29px;
+    }
+
+    .team-img {
+        margin-bottom: 16px;
+    }
+
+    .pas-member {
+        padding-top: 11px;
+    }
+    
+        
+        .section-team {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            margin-bottom: 39px;
+        }
+    
+    
+        .team:nth-last-child(-n+4) {
+            margin-bottom: 0;
+        }
+    
+        
+        
+        
+        
+    
+        
+    
+    }
