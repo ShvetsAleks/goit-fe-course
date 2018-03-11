@@ -11,15 +11,13 @@
     background-position: center center;
     }
 
-    .container-width {
-    max-width: 698px;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    .container-header {
+    padding: 40px 26px 50px 26px;
     min-height: 700px;
     }
 
-    .row-mb {
-        margin-bottom: 142px;
+    .header-content {
+        margin-top: 142px;
     }
 
 
@@ -48,26 +46,25 @@
     }
     
 /*------ section -------- */
+    .container-section {
+        padding: 40px 26px 50px 26px;
+    }
 
     .mb-team {
         padding: 0 90px 0 90px; 
-        margin-bottom: 21px;
+        margin-bottom: 23px;
     }
 
     .section-title {
-        margin-bottom: 19px;
+        margin-bottom: 32px;
         padding-top: 28px;
     }
 
     .mb-team [class*="col-"] {
         margin-bottom: 40px;
     }
-
-    .mb-team [class*="col-"]:nth-child(2) {
-        margin-bottom: 0;
-    }
     
-    .mb-team [class*="col-"]:nth-child(4) {
+    .mb-team [class*="col-"]:nth-child(2) {
         margin-bottom: 0;
     }
 
