@@ -1,0 +1,148 @@
+
+.b-team__title {
+    position: relative;
+    padding-top: 57px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+}
+
+.b-team__subtitle {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.b-team__title::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 172px;
+    left: 570px;
+    height: 3px;
+    width: 60px;
+    background-color: #f38181; 
+}
+
+.b-team__text {
+    margin-bottom: 95px;
+    text-align: center;
+    padding: 0 128px;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------team-------- */
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__member {
+    width: 32%;    
+}
+
+.team__card {
+    position: relative;
+    background-color:#95e1d3;
+    width: 100%;
+    height: auto;
+}
+
+.team__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team__social {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 470px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.team__card--hover:hover .team__img {
+    transform: translate(-10px, -10px);
+}
+
+.team__card--hover:hover .team__social {
+    display: block;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    top: -10px;
+    right: 10px;
+}
+
+/*---- socials -----*/
+
+.blok-icon {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 55%;
+}
+
+
+
+.icon {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon:hover {
+    background-color: #9bd6ce;
+}
+
+
+.icon-facebook {
+    background-image: url(../img/team/facebook.svg);
+}
+.icon-twitter {
+    background-image: url(../img/team/twitter.svg);
+}
+.icon-pinterest {
+    background-image: url(../img/team/pinterest.svg);
+}
+.icon-instagram {
+    background-image: url(../img/team/instagram.svg);
+}
+
+
+/* ---- info -----  */
+
+.member-descr {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.member-pos {
+    display: block;
+    padding-top: 16px;
+    text-transform: none;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
