@@ -7,12 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="wrapper">
-        <div class="conteiner">
+        <div class="container">
             <div class="hed">
                 <a href="#" class="hed__logo">MoGo</a>
                 <ul class="hed__menu">
@@ -61,13 +62,13 @@
     </header>
     <main>
         <section class="b-services">
-            <div class="conteiner">
+            <div class="container">
                 <h2 class="b-services__title">We work with
                     <span class="b-services__subtitle">amazing services</span>
                 </h2>
                 <ul class="b-services__list">
                     <li class="b-services__item item-service">
-                     <h2 class="item-service__title pic1">photography</h2>
+                        <h2 class="item-service__title pic1">photography</h2>
                         <p class="item-service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </p>
                     </li>
@@ -99,7 +100,7 @@
             </div>
         </section>
         <section class="b-team">
-            <div class="conteiner">
+            <div class="container">
                 <h2 class="b-team__title">Who we are
                     <span class="b-team__subtitle">meet our team</span>
                 </h2>
@@ -110,91 +111,128 @@
                     <figure class="team__member">
                         <div class="team__card team__card--hover">
                             <picture class="team__img">
-                                <source srcset="img/graphic@1x.png 1x,
-                                                img/graphic@2x.png 2x">
-                                <img srcset="img/graphic.png" alt="default image">
-                            </picture>                                              
+                                <source srcset="img/member-foto/graphic@1x.png 1x,
+                                                img/member-foto/graphic@2x.png 2x">
+                                <img srcset="img/member-foto/graphic.png" alt="default image" width="380" height="470">
+                            </picture>
                             <div class="team__social">
                                 <div class="blok-icon">
-                                    <a href="#" class="icon icon-facebook">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#facebook"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-twitter">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#twitter"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-pinterest ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#pinterest"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-instagram ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#instagram"></use>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <figcaption class="member-descr">Matthew Dix
-                            <span class="member-pos">Graphic Design</span>
+                        <figcaption class="team__member-descr">Matthew Dix
+                            <span class="team__member-pos">Graphic Design</span>
                         </figcaption>
                     </figure>
                     <figure class="team__member">
                         <div class="team__card team__card--hover">
                             <picture class="team__img">
-                                <source srcset="img/graphic@1x.png 1x,
-                                                img/graphic@2x.png 2x">
-                                <img srcset="img/graphic.png" alt="default image">
-                            </picture>                                              
+                                <source srcset="img/member-foto/uxdesign@1x.png 1x,
+                                                img/member-foto/uxdesign@2x.png 2x">
+                                <img srcset="img/member-foto/uxdesign.png" alt="default image" width="380" height="470">
+                            </picture>
                             <div class="team__social">
                                 <div class="blok-icon">
-                                    <a href="#" class="icon icon-facebook">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#facebook"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-twitter">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#twitter"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-pinterest ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#pinterest"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-instagram ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#instagram"></use>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <figcaption class="member-descr">christopher campbell
-                            <span class="member-pos">Branding/UX desing</span>
+                        <figcaption class="team__member-descr">christopher campbell
+                            <span class="team__member-pos">Branding/UX desing</span>
                         </figcaption>
                     </figure>
                     <figure class="team__member">
                         <div class="team__card team__card--hover">
                             <picture class="team__img">
-                                <source srcset="img/graphic@1x.png 1x,
-                                                img/graphic@2x.png 2x">
-                                <img srcset="img/graphic.png" alt="default image">
-                            </picture>                                              
+                                <source srcset="img/member-foto/developer@1x.png 1x,
+                                                img/member-foto/developer@2x.png 2x">
+                                <img srcset="img/member-foto/developer.png" alt="default image" width="380" height="470">
+                            </picture>
                             <div class="team__social">
                                 <div class="blok-icon">
-                                    <a href="#" class="icon icon-facebook">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#facebook"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-twitter">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#twitter"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-pinterest ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#pinterest"></use>
+                                        </svg>
                                     </a>
-                                    <a href="#" class="icon icon-instagram ">
-
+                                    <a href="#" class="blok-icon__item blok-icon__item--white blok-icon__item--bc">
+                                        <svg class="blok-icon__img">
+                                            <use xlink:href="img/icon-sprite.svg#instagram"></use>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <figcaption class="member-descr">michael fertig
-                            <span class="member-pos">Developer</span>
+                        <figcaption class="team__member-descr">michael fertig
+                            <span class="team__member-pos">Developer</span>
                         </figcaption>
                     </figure>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container container--footer">
+            <div class="line"></div>
+            <div class="copyright">
+                <p class="copyright__text">© 2016 MoGo free PSD template by <span class="copyright__text--red" 
+                    >Laaqiq</span></p>
+                <form class="form" classaction="#" method="get">
+                        <input class="form__text" type="text" name="name" placeholder="Your Email...">
+                        <input class="form__btn" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

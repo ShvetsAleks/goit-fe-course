@@ -1,5 +1,6 @@
-@import 'dist/base.css';
+@import 'stylename.css';
+@import 'base.css';
 @import 'header.css';
 @import 'section1.css';
 @import 'section2.css';
-@import 'stylename.css';
+@import 'footer.css';

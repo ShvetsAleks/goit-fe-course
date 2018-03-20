@@ -5,11 +5,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))), url(../img/wrapper/wrapper.png);
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/wrapper/wrapper.png);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/wrapper/wrapper.png);
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/wrapper/wrapper.png);
 }
 
 
-.conteiner {
+.container {
     max-width: 1220px;
     margin-right: auto;
     margin-left: auto;
@@ -18,9 +21,15 @@
 }
 
 .hed{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .hed__logo {
@@ -33,8 +42,12 @@
 }
  
 .hed__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     list-style: none;
 }
 
@@ -86,7 +99,7 @@
 }
 
 .hed-content {
-    margin-top: 152px;
+    margin-top: 173px;
 }
 
 .hed-content__title {
@@ -98,6 +111,8 @@
 }
 
 .hed-content__heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 30px;
     text-align: center;
     color: #fff;
@@ -130,7 +145,6 @@
     font-size: 14px;
     font-weight: 700;
 }
-
 
 
 
