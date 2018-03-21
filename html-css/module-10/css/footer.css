@@ -27,8 +27,9 @@
     font-weight: normal;
 }
 
-.copyright__text--red {
+.copyright__link {
     color: #f38181;
+    text-decoration: none;
 }
 
 /* ----FORM----- */
