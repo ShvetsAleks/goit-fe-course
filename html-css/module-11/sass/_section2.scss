@@ -1,0 +1,160 @@
+.b-team__title {
+    position: relative;
+    padding-top: 62px;
+    margin-bottom: 86px;
+    text-align: center;
+    font-family: $cursive-font; 
+    font-size: 24px;
+    color: $primary-dark;
+    font-weight: normal;
+    &::before{
+        content: '';
+          display: inline-block;
+          position: absolute;
+          top: 176px;
+          left: 570px;
+          height: 3px;
+          width: 60px;
+          background-color: $color-background;   
+      }
+}
+
+.b-team__subtitle {
+    display: block;
+    padding-top: 18px;
+    text-align: center;
+    color: $primary-dark;
+    font-size: 30px;
+    font-family: $primary-font;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.b-team__text {
+    margin-bottom: 95px;
+    text-align: center;
+    padding: 0 128px;
+    color: $secondary-dark;
+    font-size: 15px;
+    font-family: $secondary-font;
+}
+
+.team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.team__member {
+    width: 32%;    
+}
+
+.team__card {
+    position: relative;
+    background-color:#95e1d3;
+    width: 380px;
+    height: 470px;
+}
+
+.team__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team__social {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 470px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+    background: -webkit-linear-gradient(top, #f38181, #fce38a);
+    background: -o-linear-gradient(top, #f38181, #fce38a);
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.team__card--hover:hover .team__img {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+}
+
+.team__card--hover:hover .team__social {
+    display: block;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    top: -10px;
+    right: 10px;
+}
+
+/*---- socials -----*/
+
+.blok-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 55%;
+}
+
+.blok-icon__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 1px;
+    width: 57px;
+    height: 57px;
+    background-color: $color-yellow;
+    &:last-child {
+         margin-right: 0px;
+    }
+}
+
+
+
+.blok-icon__img {
+    display: block;
+    fill: $color-background;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    
+}
+
+.blok-icon__item--white:hover .blok-icon__img {
+    fill: $color-withe; 
+}
+
+.blok-icon__item--bc:hover {
+   background-color: $color-background; 
+}
+
+
+/* ---- info -----  */
+
+.team__member-descr {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $primary-dark;
+    font-size: 14px;
+    font-family: $primary-font;
+}
+
+.team__member-pos {
+    display: block;
+    padding-top: 16px;
+    text-transform: none;
+    color: $secondary-dark;
+    font-size: 15px;
+    font-family: $secondary-font;
+    font-weight: 300;
+    font-style: italic;
+}
