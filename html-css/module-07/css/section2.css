@@ -9,7 +9,7 @@
 .feedback-form {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.8125rem;
 }
 
 .title-white {
@@ -35,7 +35,7 @@
 }
 
 .imput-name,.imput-email {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.75rem;
 }
 
 input[type="text"]:valid:not(:placeholder-shown) {
@@ -63,16 +63,16 @@ textarea:invalid:not(:placeholder-shown) {
 }
 
 .input-textarea {
-    height: 13.125rem;
+    height: 13.1875rem;
     resize: none;
 }
 
 .feedback-form-input {
-    flex-basis: 48.4%;
+    flex-basis: 48.617%;
 }
 
 .feedback-textarea {
-    flex-basis: 48.4%;
+    flex-basis: 48.617%;
 }
 
 .form-btm {

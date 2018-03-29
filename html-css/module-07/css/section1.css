@@ -12,7 +12,7 @@
 
 .subtitle {
     display: block;
-    padding-top: 1.25rem;
+    padding-top: 0.4rem;
     font-size: 1rem;
     font-family: 'Roboto', serif;
     text-transform: none;
@@ -39,7 +39,7 @@
 }
 
 .title-srv {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.9rem;
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
@@ -61,7 +61,7 @@
 
 .item-srv {
 
-    width: 32%;
+    width: 31%;
     text-align: center;
     list-style: none;
 }
