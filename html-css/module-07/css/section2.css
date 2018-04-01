@@ -65,6 +65,7 @@ textarea:invalid:not(:placeholder-shown) {
 .input-textarea {
     height: 13.28rem;
     resize: none;
+    
 }
 
 .feedback-form-input {
