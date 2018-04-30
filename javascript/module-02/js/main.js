@@ -22,7 +22,7 @@ do {
 
 console.log(numbers);
 
-for (let i = 0, max = numbers.length; i < max; i += 1) {
+for (let i = 0; i < numbers.length; i += 1) {
   total = total + numbers[i];
 }
 
