@@ -103,5 +103,9 @@ function createPostCard({img, title, text, stats}) {
 
   post.append(postImg, postTitle, postText, postActions);
 
+  console.log(post);
+
   return post;
 }
+
+console.log(createPostCard(posts));
