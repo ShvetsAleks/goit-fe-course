@@ -34,9 +34,15 @@ body {
 
 .screen-item {
   padding: 5px;
+  opacity: 0.5;
+  transition: all 1s ease-in;
 }
 
 .small-img {
   display: block;
   width: 100%;
+}
+
+.screen-item:hover {
+  opacity: 1;
 }

@@ -93,3 +93,4 @@ function createSmallImg({ preview, fullview, alt }) {
 function createListImg(arr) {
   return arr.reduce((acc, el) => acc.concat(createSmallImg(el)), []);
 }
+
