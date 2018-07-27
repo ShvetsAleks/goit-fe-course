@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+ul,
+h2,
+h1 {
+  border-radius: 2px;
+  background-color: #0099ff;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+h2,
+li {
+  font-size: 14px;
+}
+
+button {
+  font-style: 14px;
+  text-transform: uppercase;
+  border: 1px solid #0066cc;
+  background-color: #a3cef1;
+  color: #333;
+  padding: 5px 11px;
+}
+
+ul {
+  background-color: #fff;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.goods {
+  display: flex;
+}
+
+.menu {
+  min-width: 150px;
+  padding: 2px;
+  margin-right: 2px;
+  border-radius: 2px;
+  background-color: #0099ff;
+}
+
+.grid {
+  flex-basis: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  border-radius: 2px;
+  background-color: #0099ff;
+  padding: 5px;
+}
+
+.card-good {
+  padding: 5px;
+  background-color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.card-name {
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dscr-card {
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-align: left;
+  color: brown;
+}
+
+.tech-card {
+  margin-bottom: 5px;
+}
+
+.price-card {
+  margin: auto;
+  font-style: 16px;
+  text-align: center;
+  border: 1px solid #0066cc;
+  border-radius: 5px;
+  background-color: #a3cef1;
+  color: red;
+  padding: 5px 5px;
+}
