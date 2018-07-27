@@ -109,7 +109,7 @@ form.addEventListener(`submit`, e => {
 
     const inputs = Array.from(document.querySelectorAll(`input[type="checkbox"]:checked`));
 
-    console.log(inputs);
+    inputs.pop()
 
     const filter = inputs.reduce(
       (acc, input) => {
@@ -121,6 +121,15 @@ form.addEventListener(`submit`, e => {
 
     );
 
-    console.log(filter);
+
+
+    // const calculate = laptops.filter((item) => item === filter);
+
+    const rew = laptops.find(filter);
+
+    console.log(rew);
 
 });
+
+
+// https://habr.com/post/163535/
