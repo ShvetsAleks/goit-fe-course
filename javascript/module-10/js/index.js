@@ -138,6 +138,48 @@ formDeleteUser.addEventListener(`submit`, handleDeleteUser);
 
 // обновить пользователь по ID
 
+const formUpdateUser = document.querySelector(".js-update_user");
+const updateName = document.querySelector(".js-update_name");
+const updateAge = document.querySelector(".js-update_age");
+const updateId = document.querySelector(".js-update_id");
+
+const updateUser = (id, name, age) => {
+  const url = `https://test-users-api.herokuapp.com/users/${id}/`;
+  const upUser = {
+    name: name,
+    age: age,
+  }
+
+ return fetch(url, {
+   method: `PUT`,
+   body: JSON.stringify(upUser),
+   headers: {
+    "Content-type": "application/json"
+  }
+ })
+    .then(response => {
+      if (response.ok) return response.json();
+
+      throw new Error("error: " + response.statusText);
+    })
+    .then(data => data.data)
+    .catch(err => console.log(err));
+}
+
+const handleUpdateUser = e => {
+  e.preventDefault();
+
+  updateUser(updateId.value, updateName.value, updateAge.value).then(user => {
+    console.log(user);
+    alert(`Пользователь c ID: ${user[`id`]} успешно обновлен с параметрами: name - ${user[`name`]}, age - ${user[`age`]}`)
+  })
+  
+  e.target.reset();
+}
+
+formUpdateUser.addEventListener(`submit`, handleUpdateUser);
+
+
 
 
 
